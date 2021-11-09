@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="div1"></p>
+<p id="div2"></p>
+<p id="div3"></p>
+<p id="div4"></p>
+<p id="div5"></p>
+<p id="div6"></p>
+
+<script>
+    function vibgyor()
+{const color=["Red","Green","Yellow","Blue","Orange"];
+            document.getElementById("div1").innerHTML=color;
+            color.pop();
+            document.getElementById("div2").innerHTML=color;
+            color.push("Indigo");
+            document.getElementById("div3").innerHTML=color;
+            color.shift("pink");
+            document.getElementById("div4").innerHTML=color  
+            color.push("white");
+            document.getElementById("div5").innerHTML=color
+}
+document.getElementById("div6").innerHTML =vibgyor()
+</script>
+
+</body>
+</html>

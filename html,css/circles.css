@@ -1,0 +1,12 @@
+.circle {
+   
+    padding: 100px;
+    text-align: center; 
+    border-radius: 100px;
+    display: inline-block;
+    color:purple;
+    font: size 100px;;
+    font-weight:600;
+    background-color: rgba(219, 22, 209, 0.856);
+    border: 5px solid rgba(250, 63, 6, 0.932);
+}

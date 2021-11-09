@@ -1,0 +1,31 @@
+.grad1{
+  display: block;
+  width:500px;
+  height:200px ;
+  background:linear-gradient(orange,red,yellow);
+   }
+   .grad2{
+      display: block;
+      width:500px;
+      height:250px ;
+      height:50;;
+      background:linear-gradient(green,blue,yellow);
+       }
+       
+       .grad3{
+          display: block;
+         width:500px;
+          height:250px ;
+          height:50;;
+          background:radial-gradient(violet,red,yellow);
+   
+           }
+           .grad4
+           {
+          display: block;
+          width:500px;
+           height:250px ;
+          
+           background:radial-gradient(black,red,pink);
+   
+               }

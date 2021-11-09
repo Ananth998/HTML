@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Simple interest</title>
+    <body>
+        <P style=>SIMPLE INTEREST </P>
+    <br>
+    <div id="div1"></div>
+    <br>
+    <div id="div2"></div>
+
+<script>
+            function simpleinterest(p,n,r)
+            {    
+                si=((p*n*r)/100);
+                return si;
+            }
+            let Sr=simpleinterest(1000,5,10);
+            let p=1000;
+            let sip=`THE SIMPLE INTEREST = ${Sr} PRINCIPLE AMOUNT= ${p}`;
+            
+            document.getElementById("div1").innerHTML="THE SIMPLE INTEREST IS"+"  "+Sr;
+            document.getElementById("div2").innerHTML=sip;
+             
+        </script>
+        </body><html>
+
+            

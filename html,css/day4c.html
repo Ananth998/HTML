@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>wild animals</title>
+    
+    <body>
+    <div id="div1"></div>
+    <br>
+    <div id="div2"></div><br>
+    <div id="div3"></div>
+<script>
+    function wild(){
+const animals=["monkey","donkey","dog","cat","elephant"];
+document.getElementById("div1").innerHTML=animals;
+return animals.splice(3,0,"lion","panda","camel");
+document.getElementById("div2").innerHTML=animals;
+return animals.splice(2,2,"cow","sheep","horse");
+document.getElementById("div3").innerHTML=animals;}
+document.getElementById("div2").innerHTML =wild()
+</script>
+</html>
